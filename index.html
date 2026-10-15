@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Lexicon 1000: las 500 palabras y 500 frases más usadas del inglés, con tarjetas, quiz y guardado automático de tu progreso.">
+<meta name="theme-color" content="#F6F1E6">
+<title>Lexicon 1000 · Palabras y frases esenciales del inglés</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231F2A24'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='28' fill='%23F6F1E6' text-anchor='middle'%3EL·%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="topbar">
+  <a class="brand" href="#/inicio" aria-label="Lexicon 1000, ir al inicio">
+    <span class="brand-mark" aria-hidden="true">L·1000</span>
+    <span class="brand-name">Lexicon<em>1000</em></span>
+  </a>
+  <nav class="nav" aria-label="Navegación principal">
+    <a href="#/inicio" data-nav="inicio">Inicio</a>
+    <a href="#/explorar" data-nav="explorar">Explorar</a>
+    <a href="#/tarjetas" data-nav="tarjetas">Tarjetas</a>
+    <a href="#/quiz" data-nav="quiz">Quiz</a>
+    <a href="#/progreso" data-nav="progreso">Progreso</a>
+  </nav>
+  <div class="topstat" id="topstat" title="Palabras y frases dominadas de 1000"></div>
+</header>
+
+<main id="view" class="view"></main>
+
+<footer class="foot">
+  <span>Tu progreso se guarda <strong>automáticamente</strong> en este navegador.</span>
+  <span class="foot-sep" aria-hidden="true">·</span>
+  <span>Haz un respaldo desde <a href="#/progreso">Progreso → Exportar</a>.</span>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="saveflag" id="saveflag" aria-hidden="true"><span class="saveflag-dot"></span>Guardado</div>
+
+<script src="js/data/01-esenciales.js"></script>
+<script src="js/data/02-verbos.js"></script>
+<script src="js/data/03-sustantivos.js"></script>
+<script src="js/data/04-adjetivos.js"></script>
+<script src="js/data/05-saludos.js"></script>
+<script src="js/data/06-cortesia.js"></script>
+<script src="js/data/07-viajes.js"></script>
+<script src="js/data/08-comida-compras.js"></script>
+<script src="js/data/09-trabajo-vida.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
